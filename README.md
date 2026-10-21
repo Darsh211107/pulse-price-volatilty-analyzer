@@ -144,7 +144,7 @@ Contains:
 Notes:
 - The dataset has no date column.
 - Analysis in market-based rather than time-series based.
-- Prices are stored per quintal (100 kg).
+- Prices are stored per kg.
 
 ### El Niño Dataset
 
