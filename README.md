@@ -137,9 +137,9 @@ Fruit-Market-Price-Analyzer/
 **Source:** `daily_price.csv`
 
 Contains:
-- Wholesale fruit*prices
+- Wholesale fruit prices
 - Market-wise records
-- Sta*e-wise records
+- State-wise records
 
 Notes:
 - The dataset has no date column.
