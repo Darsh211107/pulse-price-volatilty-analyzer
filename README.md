@@ -97,33 +97,33 @@ jav* FruitPriceAnalyzer
 
 ---
 
-## A*gorithms Used
+## Algorithms Used
 
 ### Searching
-- Lin*ar Search
+- Linear Search
 - Binary Search
 
-### Sor*ing
+### Sorting
 - Merge Sort
 
 ### Analysis
-- A*erage Price Computation
-- Deviatio*-Based Price Classification
-- Comp*rative Climate Analysis
+- Average Price Computation
+- Deviation-Based Price Classification
+- Comparative Climate Analysis
 
 ---
 
-## P*oject Structure
+## Project Structure
 
 ```text
-Fruit-Mar*et-Price-Analyzer/
+Fruit-Market-Price-Analyzer/
 │
-├── index.htm*
+├── index.html
 ├── README.md
 │
 └── java/
     ├──*Main.java
-    ├── FruitPriceAnalyz*r.java
+    ├── FruitPriceAnalyzer.java
     ├── daily_price.csv
    *└── fruit_prices_clean.csv
 ```
@@ -132,9 +132,9 @@ Fruit-Mar*et-Price-Analyzer/
 
 ## Dataset Information
 
-### Mark*t Dataset
+### Market Dataset
 
-**Source:** `daily_pric*.csv`
+**Source:** `daily_price.csv`
 
 Contains:
 - Wholesale fruit*prices
@@ -142,73 +142,68 @@ Contains:
 - Sta*e-wise records
 
 Notes:
-- The datas*t has no date column.
-- Analysis i* market-based rather than time-ser*es based.
-- Prices are stored per *uintal (100 kg).
+- The dataset has no date column.
+- Analysis in market-based rather than time-series based.
+- Prices are stored per quintal (100 kg).
 
-### El Niño Data*et
+### El Niño Dataset
 
 **Source:** `fruit_prices_clea*.csv`
 
 Contains:
-- Daily fruit pri*es
+- Daily fruit prices
 - State information
-- Oceanic N*ño Index (ONI)
+- Oceanic Niño Index (ONI)
 - Climate labels
 
-N*tes:
+Notes:
 - Prices are stored per kilog*am.
 - May 2023 to March 2024 is la*eled as El Niño.
-- April 2024 has *n ONI value of 0.8 but remains lab*led Neutral in the source dataset.*- The website preserves the origin*l dataset labels.
+- April 2024 has an *ONI value of 0.8* but remains labeled Neutral in the source dataset.- The website preserves the original dataset labels.
 
 ---
 
-## Technol*gies Used
+## Technologies Used
 
 ### Frontend
 - HTML5
-- *SS3
+- CSS3
 - JavaScript
 
-### Programming *anguage
+### Programming Language
 - Java
 
 ### Data Storage
 -*CSV Files
 
 ### DSA Concepts
-- Line*r Search
+- Linear Search
 - Binary Search
-- Merge S*rt
+- Merge Sort
 - Statistical Classification
 
 -*-
 
 ## Academic Relevance
 
-This pro*ect demonstrates practical applica*ions of:
+This project demonstrates practical applications of:
 
 - Data Structures
-- Sear*hing Algorithms
-- Sorting Algorith*s
+- Searching Algorithms
+- Sorting Algorithms
 - Dataset Processing
-- Statistic*l Analysis
+- Statistical Analysis
 - Data Visualization
 
-u*ing real-world agricultural pricin* data.
+using real-world agricultural pricing data.
 
 ---
 
 ## Disclaimer
 
-The ob*erved differences between El Niño *nd Neutral periods show associatio* rather than causation.
+The observed differences between El Niño and Neutral periods show association rather than causation.
 
-Because t*e El Niño period forms a continuou* time range in the dataset, factor* such as seasonality, market trend*, supply conditions, and other ext*rnal influences may also contribut* to price variations.
+Because the El Niño period forms a continuous time range in the dataset, factors such as seasonality, market trend*, supply conditions, and other external influences may also contribute to price variations.
 
 ---
 
-## Aut*or
-
-**Darsh Ved**
-
-Academic projec* developed for learning and demons*rating Data Structures and Algorit*ms through real-world agricultural*data analysis.
