@@ -118,14 +118,28 @@ jav* FruitPriceAnalyzer
 ```text
 Fruit-Market-Price-Analyzer/
 │
-├── index.html
 ├── README.md
+├── LICENSE
 │
-└── java/
-    ├──*Main.java
-    ├── FruitPriceAnalyzer.java
+├── web/
+│   ├── index.html
+│   ├── fruit_price_explorer.html
+│   ├── data.js
+│   ├── script.js
+│   └── style.css
+│
+├── java/
+│   ├── Main.java
+│   ├── FruitPriceAnalyzer.java
+│   ├── FruitRecord.java
+│   ├── MergeSort.java
+│   ├── PriceAnalyzer.java
+│   ├── Search.java
+│   └── CSVReader.js
+│
+└── data/
     ├── daily_price.csv
-   *└── fruit_prices_clean.csv
+    └── fruit_prices_clean.csv
 ```
 
 --*
